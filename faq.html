@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en' xmlns:fb='http://www.facebook.com/2008/fbml'>
+  <head>
+    <title>Frequently Asked Questions - PeopleJar</title>
+    <link rel="apple-touch-icon" href="images/favicon_iphone.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="PRAGMA" content="NO-CACHE" />
+    <meta name="verify-v1" content="J3G7XwUzITAc6CaLVmO/YhzzxWFPYMu6jOSpjWbMuoc=" />
+    <link href="stylesheets/internal_stylesheet.css" media="screen" rel="stylesheet" type="text/css" /><!--[if lte IE 7]><link href="stylesheets/ie7.css" media="screen" rel="stylesheet" type="text/css" /><![endif]--><!--[if IE 6]><link href="stylesheets/ie6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <script src="javascripts/_javascript.js_1246692264" type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript" defer="defer">
+      var pageTracker = _gat._getTracker("UA-4727207-1");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+    
+    
+      <script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(function() {$(':text:visible:enabled:first').focus(); });
+    //]]>
+    </script>
+    
+    
+    <!--[if IE 6]>
+    <script src="javascripts/DD_belatedPNG.js"></script>
+    <![endif]--> 
+    <script type="text/javascript">
+    //<![CDATA[
+        function save_person_not_logged_in_box(){
+          $.ajax({
+            beforeSend:    function(request){
+          if ($('#loading-box').size() > 0){ $('#loading-box').show(); }
+          else{$('    <div id=/"loading-box/"><div id=/"eventbox/"><div class=/"wrap-outer/">    <div class=/"wrap-inner/">    <div id=/"eventbox-body/"><p class=/"loading/">Loading...<//p><//div>    <//div>    <//div><//div><//div>').appendTo($('#container')); }
+        }
+    ,
+            error:function(request){},
+            success:function(data){
+              if (data) {
+                $('#loading-box').hide();
+                if ($('#save-person-not-logged-in-box').size() > 0){ $('#save-person-not-logged-in-box').html(data).show(); }
+                else{$('<div><//div>').html(data).appendTo($('#container'))  }
+              } 
+            },
+            type:'get',
+            url:'/saved_people/not_logged_in_box'
+          });
+          return false;
+        }
+        function save_search_not_logged_in_box(){
+          $.ajax({
+            beforeSend:function(request){},
+            error:function(request){},
+            success:function(data){
+              if (data) {
+                if ($('#save-search-not-logged-in-box').size() > 0){ $('#save-search-not-logged-in-box').html(data).show(); }
+                else{$('<div><//div>').html(data).appendTo($('#container'))  }
+              } 
+            },
+            type:'get',
+            url:'/saved_searches/not_logged_in_box'
+          });
+          return false;
+        }
+        $(document).ready(function() {
+          var badBrowser = (/MSIE ((5.5)|6)/i.test(navigator.userAgent));
+          if (badBrowser){
+            DD_belatedPNG.fix('#brand h1 a');
+          }
+        });
+    
+    //]]>
+    </script>
+    <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+        <!--[if IE 6]>
+        <div id="ie6">
+          <div class="wrap">
+            <h1>This Browser is Not Supported</h1>
+            <p>Peoplejar.com uses web technologies that your current browser is unable to render properly.<br/> 
+            For a better web experience, we recommend using <a href="http://firefox.com">Firefox</a>, 
+            <a href="http://apple.com/safari">Safari</a>, <a href="http://www.google.com/chrome">Google Chrome</a>, 
+            or upgrading to the current version of <a href="http://www.microsoft.com/ie">Internet Explorer</a>.</p>
+          </div>
+        </div>
+        <![endif]-->
+    <div id='container'>
+      <div id="header">
+        <div class="wrap">
+          <div id="brand">
+            <h1>
+            <a href="index.html">PeopleJar</a>
+           
+            </h1>
+            <p>Be Found.</p>
+          </div>
+          <div id='account'>
+        <ul>
+          <li><a href="login.html" id="header-login-link">Login</a></li>
+          <li class='facebook'>
+            <a href="#" onclick="FB.Connect.requireSession( function()%7Bwindow.location = _/facebook/login_;%7D );; return false;.html">Login With Facebook</a>
+          </li>
+          <li class='twitter'>
+            <a href="/twitter/connect" onclick="metrics.log(%7B_category_ _ _header_, _action_ _ _twitter-connect-click_%7D);">Login With Twitter</a>
+          </li>
+          <li><a href="signup/new.html" onclick="metrics.log(%7B_category_ _ _header_, _action_ _ _signup-click_%7D);">Sign Up</a></li>
+        </ul>
+      </div>
+      
+          <div id="nav-primary">
+            <ul>
+              <li id="nav-find" class=""><a href="find.html">Find</a></li>
+              
+              <li  ><a href="video.html">What is PeopleJar?</a></li>
+              
+            </ul>
+          </div>
+        </div><!-- .wrap -->
+      </div>
+      <div class='loginbox' id='eventbox' style='display: none;'>
+        <div class='wrap-outer'>
+          <div class='wrap-inner'>
+            <div id='eventbox-head'>
+              <h2>Login to PeopleJar</h2>
+              <p><a href="index.html" id="login-modal-close">Close</a></p>
+            </div>
+            <form action="sessions.html" method="post">
+              <div id='eventbox-body'>
+                <p>
+                  Don't have a PeopleJar account?
+                  <a href="signup/new.html">Sign Up</a>
+                </p>
+                <fieldset>
+                  <p>
+                    <label for="session_email">Email:</label>
+                    <input class="text" id="session_email" name="session[email]" size="30" type="text" />
+                  </p>
+                  <p>
+                    <label for="session_password">Password:</label>
+                    <input class="text" id="session_password" name="session[password]" size="30" type="password" />
+                  </p>
+                  <ul>
+                    <li>
+                      <input id="session_remember_me" name="session[remember_me]" type="checkbox" value="1" />
+                      <label for="session_remember_me">Remember Me</label>
+                    </li>
+                  </ul>
+                </fieldset>
+              </div>
+              <div id='eventbox-foot'>
+                <p class='buttons'>
+                  <button type='submit'>
+                    <span>Login</span>
+                  </button>
+                  <a href="forgot_password.html" class="forgot">Forgot your password?</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+      //<![CDATA[
+      $(document).ready(function() {    $('#header-login-link').click(function(){
+            metrics.log({'category' : 'header', 'action' : 'login-click'});
+            $('.loginbox').show(); $('#session_email').focus(); return false;
+          });
+          
+          $('#login-modal-close').click(function(){$('.loginbox').hide(); return false;})
+          
+      });
+      //]]>
+      </script>
+      <hr class='hide' />
+      
+      <!-- <div id="grid"></div> -->
+      <div id="body" class="pages">
+        <div id="content-1">
+          <div class="wrap">
+            <h2>Frequently Asked Questions</h2>
+            <div class="main">
+      
+                <dt><h3>What is PeopleJar?</h3></dt>
+                <dd>
+                <p>
+                  PeopleJar is a free directory platform that helps you make new connections in any field through specific characteristics.  
+                </p>
+                </dd>
+                <dt><h3>How does it work?</h3></dt>
+                <dd>
+                <p>
+                  You come to PeopleJar for 2 reasons: to find others or to be found. 
+                </p>
+                <p>
+                  <em>Finding part works as follows:</em><br/>
+                  You start your search by typing a keyword for a person you are looking to find, such as photographer, drummer, date, attorney, programmer, caretaker, skydiver, etc. (If the keyword of your search isn’t available, you can suggest it). 
+                  After seeing initial search results, you are able to refine your query by more relevant characteristics such as location, spoken language, gender, height, years of experience, specialty, etc. The range of such characteristics available will depend on the field of interest in your search.  After finding the results that match your search needs, you are able to view detailed profiles and contact the person to establish a new connection. If there are currently no profiles that match your query, you can save your search for others to see who you are looking to find; think of it as casting the fishing line and leaving it there to stay.
+                </p>
+                <p>
+                  <em>Being found part works as follows:</em><br/> 
+                  You create a profile and add fields of interest you are involved in, such as accountant, scubadiver, pilot, screenwriter, translator, etc. You have virtually any interest or occupation to choose from for any reason, be it social, professional, etc.  After adding an interest to your profile, you fill out a few more detailed characteristics relevant to that field, such as years of experience, specialty, etc.
+                </p>
+                <p>
+                  A user contribution driven system of interests & occupations with relevant characteristics linked to them is the heart of PeopleJar. It is its universal language, the standard for its users to search by on one end and to be found on the other. 
+                </p>
+                </dd>
+                
+                <dt><h3>How was PeopleJar born?</h3></dt>
+                <dd>
+                  <p>
+                    PeopleJar was born after facing the need for being able to build a search query of relevant attributes, trying to find any person in any field of interest and being restricted by existing tools to do so. We discovered, that no matter what field of interest you are trying to find a person in, the process is essentially the same. For example, if you are searching for an attorney, the attributes to build your query may be: specialty: real estate; spoken language: Hindi; location: Chicago, IL. If you are searching for a caretaker, the attributes may be: specialty: infants; living situation: Live In; commitment: full-time. Fields of interest and attributes change, but to a computer they are just entries in a database. We realized, that the restriction theme was universal in any field of interest, that there was no one global solution for being able to search for people having no restriction in building your query. PeopleJar was born.
+                  </p>
+                </dd>
+      
+                <dt><h3>So, does PeopleJar search across other sites like this?</h3></dt>
+                <dd>
+                  <p>
+                    PeopleJar only searches profiles of its members. For example, if you find a photographer specializing in landscapes, he or she is a person who registered on PeopleJar in order to be found, offering his or her services. PeopleJar does not search other sites and does not import profiles from them. 
+                    Primarily for two reasons: 
+                    <ul>
+                    <li><p>There is no way to know if people on other sites want to be found.</p></li>
+                    <li><p>We have no control over other sites “data structure”, the kind of structure necessary for a well refined attribute-specific search to work properly.</p></li>
+                    </ul>
+                  </p>
+                </dd>
+      
+                <dt><h3>Where is PeopleJar positioned in the market?</h3></dt>
+                <dd>
+                  <p>
+                    It is important to clarify the conceptual difference of two ways to go for any internet company in a search domain. 
+                  </p>
+                  <ol>
+                    <li><p>External web crawlers:  sites that crawl the web, indexing the information on other sites and displaying this information as search results. These sites typically do not maintain content of their own, have no control over the info they present and are somewhat of “translators” or “summary tools” to convey “what’s on the web” in a given field. Some examples include: Google & Yahoo for information, Spock for people, etc.</p></li>
+                    <li><p>Internal, self contained sites with well refined structure. These sites do Not crawl the web for the information. They maintain well refined structures and only show you search results from their own databases, have control over the structure of their data and are thus able to provide more refined information in their domain. Examples here include: eBay for products/items search, Wikipedia for search on topics of information, etc.</p></li>
+                  </ol>
+                    
+                  <p>
+                    PeopleJar is positioned in the second category, the category of internal, self contained, well structured applications. And the following analogy can be made: What eBay is to finding / listing products, or what Wikipedia is to finding / posting information on topics , is what PeopleJar is to finding people or people having  any skills or services to offer.
+                    </p><p>
+                    It would be a structural mistake to compare PeopleJar to external crawlers architecture applications such as Google, Spock, etc. 
+                  </p>
+                </dd>
+      
+                <dt><h3>What if there are only a few people on PeopleJar?</h3></dt>
+                <dd>
+                  <p>
+                    When you come to the Internet, you are not getting to “finding results” right away. You come to search 1st, hoping to find. Prior to PeopleJar there was no one place where a user could go and create detailed profiles in multiple fields of interest in order to be found. First, a proper “container” had to be built, in order for the content to be “poured” in such container. eBay was built with no inventory to buy or sell. Wikipedia was built with no articles on millions of topics pre populated. These utilities came out as tools for people to list the items/topics first, to be found second. PeopleJar is taking the same route.
+                  </p>
+                </dd>
+      
+              <dt><h3>Who is your audience?</h3></dt>
+              <dd>
+                <p>
+                  The answer to this one comes in two:
+                </p>
+                <ul>
+                  <li>Who is searching for people?<br/>
+                <p>Each one of us has his or her own examples. At some point of in your life you are looking for a job in a given occupation, for a new friend in the area that shares an interest, for additional lessons or instruction to get better in some field, perhaps a date, a sports partner, advice, etc. The reasons are endless and they range across many different occupations as you go through your life’s journey. </p>
+                </li>
+                  <li>Who wants to be found?<br/>
+                <p>Anyone having any skill or service to offer: an educator, a self employed person, a student, a hobbyist in any field for virtually any reason. It ranges from yellow pages books to sports, dating, education, employment, etc.</p>
+                </li>
+                </ul>
+                <p>
+                The need of searching for others and making ourselves available to the world is constant in our lives in order to be productive and move forward. One cannot do everything alone. There are millions of people searches performed monthly if not weekly online, without one efficient solution to do so.  People not only come to find others and be found online across millions of occupations and reasons, they are paying fees (business models of many micro-sites) to do so.
+                </p>
+      
+                <p>
+                It is a mistake to limit PeopleJar to being a tool for only one particular field or age group or area. Everyone finds use in PeopleJar as a utility for his or her own reasons and gets what he needs out of it. Just like people do out of eBay for items or Wikipedia for topics of information.  There are also always those who never found use in these products, and those who don’t need to find anyone and don’t need to be found. In short, PeopleJar is just not for them.
+                </p>
+      
+                <p>
+                Our audience is not only across thousands of occupations, interests and different demographics. It is also global and international, as we know: accounting or swimming, programming, or any other domain is universal.
+                </p>
+              </dd>
+              
+              <dt><h3>You claim that in terms of search, what has been done for items by eBay and for topics by Wikipedia, hasn’t been done for people prior to PeopleJar. What about Facebook, Myspace, or LinkedIn? They are sites with millions of users.
+              </h3></dt>
+              <p>
+                They are social networks. Social networking is a domain (lately chased by many) of applications that are not utilities for making new connections.  You do not go to these sites to find a software developer, photographer, translator, runner by specific attributes. Social networks are applications to map out Existing relationships you already have and effective tools to help you maintain such relationships online. They are mostly entertainment “nesting” platforms to keep your friends, coworkers, classmates, and other people you know in the loop. You add people you know to “your accounts” on them.  
+              </p>
+              <p>
+                PeopleJar is not a social network. PeopleJar does not map out your existing relationships, nor does it help to maintain them online. PeopleJar is a utility to help establish a new connection with another person by a particular interest or skill in any field (be it filmmaking, nuclear physics, design, etc.) and take the benefit of that connection outside the platform (perhaps working together on some project, etc.).
+              </p>
+              
+              <dt><h3>Isn’t Craigslist already taking care of that?</h3></dt>
+              <dd>
+                <p>Craigslist is a classified ads site. You do not create a profile for yourself in occupations you are involved in, to be available to the world, nor you are able to search for other profiles by building your query of multiple characteristics. Yes, you can post ads and find people on the site, but these posts rotate daily and it is a different domain altogether. Things do overlap, but if you think in this direction, here are a couple of thoughts:
+                  </p>
+                <ul>
+                <li><p>When you are searching on eBay, are you looking for an item or a person who has the item? So, in a sense, eBay is connecting people.</p></li>
+                <li><p>Can’t you connect with users who write articles on Wikipedia? </p></li>
+                </ul>
+              </dd>
+              
+              <dt><h3>So, is it fair to say you are a “people search” application?</h3></dt>
+              <dd>
+              <p>
+                Yes and no. We don’t want to be limited to a particular domain. The term “people search” is sort of branded as a synonym to some forensic investigation process where you pay a fee and a “people search” site finds you the information on a given person. Information such as: addresses that person used to live at, phone numbers, background history. The kind of information none of us are too open about and too excited for others to know especially on the web.  “People search” domain is often identity specific person search, meaning you are looking for the information on a person identity of whom you already know. Remember, while “Name” is technically an attribute in PeopleJar profile, PeopleJar is a site to help you establish a new connection, which by definition is a person you don’t yet know. You connect based on an interest/occupation or relevant characteristic match first and then choose from the pool of matches.  If you are looking for a person identity of which you know, you are looking not to make a new connection, but more to maintain an existing one online. In this case you are way better off by going to Facebook and searching by name or using an “external crawler” type sites to give you info on such person. PeopleJar does not service this category.
+                </p>
+      
+                <p>
+                To answer this from another angle: PeopleJar is a site that helps you find A person (searching by interests/occupations and relevant characteristics), Not THE person (searching by exact identity information), even though attributes do overlap. In a relative comparison:  eBay helps you find A car (searching by attributes like make, model, # of miles, body style), Not THE car (searching by VIN#).
+              </p>
+      
+                <p>
+                In this context, PeopleJar is a discovery platform not a “forensic search” crawler. 
+              </p>
+              </dd>
+              
+              <dt><h3>Won't other sites do what PeopleJar is doing?</h3></dt>
+              <dd>
+              <p>PeopleJar believes that it is best to do one thing simple and well, instead of being everything to everyone.  And yes, there are always those who copy in search of their own identity, and others who believe that everything has been already invented, and if not, Google will do it, so there’s no sense starting anything.  We see the glass as always half full and believe that the Internet is in its infancy with enormous future potential for PeopleJar and many other exciting inventions yet to surface.
+              </p>
+              </dd>
+              
+      
+              <dt><h3>Who are your competitors?</h3></dt>
+              <dd>
+              <p>
+                PeopleJar is a natural evolution from tribal micro-sites that currently serve as tools for establishing new connections in different fields of interest and occupations. There are hundreds of thousands of them across the world, successfully operating to help users make new connections. A few examples are: greataupair.com – caretaking; eharmony.com and matchmaker.com – dating, onemodelplace.com – modeling & photography, LAcasting.com – acting, dropzone.com – skydiving and many others. They are, at their core, exactly that – applications built to make new connections. Their audiences are highly targeted and competent in their domain and can be filtered out by relevant characteristic. The business models of these sites are fee driven (some sort of subscription fee for the site use, often to get in touch with other members is charged, as there’s huge value in making that new connection). Such sites are able to get away with doing so, in the day of free communication, due to their utilitarian value to the end user.  These micro-sites are often built on weaker technologies, with audiences limited to one particular field of interest.  However, on a core level, they function very similarly when comparing one to another. The process flow of finding a caretaker is similar to that when finding a date or a programmer. Attributes change, process remains the same. It is the pattern that eBay essentially discovered for items: listing or finding a car is the same as listing or finding a table. Prior to eBay, there were sites selling just cars or just tables.
+              </p>
+              <p>
+                On the other hand, PeopleJar does not see the micro-sites as competition. PeopleJar focuses on one piece: detailed attribute driven profiles across any occupation and attribute specific search for making new connections. We take that piece and make it simple, global, available at users fingertips. It does not mean, for example, that when a user creates a skydiver profile on PeopleJar, he will cancel his membership on dropzone.com. In fact, you can add a link to your micro-site profiles on PeopleJar. There are many other features on micro-sites that bring different value to the end user in a field of interest (such as forums, article posts, news, education, social features) that PeopleJar does not cover.  
+              </p>
+              </dd>
+      
+              <dt><h3>How much does it cost to use PeopleJar?</h3></dt>
+              <dd>
+              <p>
+                It’s free. We are firm believers that free communication stands at the foundation of the Internet. Taxing the end user with a fee to contact another one is not our business model as it is not the model of big Internet companies, such as Google, Facebook, Yahoo, etc.
+              </p>
+              </dd>
+              <dt><h3>What is PeopleJar's mission?</h3></dt>
+              <dd>
+                <p>
+                On PeopleJar - we are citizens of one planet, united by the advent of
+                the Internet, where man made geo-political divisions don’t matter; and
+                your citizenship, nationality, religion, or spoken language is just a
+                characteristic of your profile. The goal of our platform is to give
+                you a simple tool that helps you bypass any borders in making new
+                connections with competent people to help you make your dreams and
+                goals a reality.
+                </p>
+                <p>”We are one, but we’re not the same”. As a team, we’re certainly
+                unplugged from the Matrix, don’t have all the answers, but committed
+                to giving the end user a free revolutionary platform to find others
+                and be available to the world.
+                </p>
+              </dd>
+      
+            </div>
+            <div class="sub">
+              <ul class="nav">
+        <li>
+        <a href="video.html">PeopleJar Video</a></li>
+        <li>
+        <a href="about.html">About PeopleJar</a></li>
+        <li class='selected'>
+        <a href="faq.html">FAQ</a></li>
+        <li>
+        <a href="static/story_behind_peoplejar.html">The PeopleJar Story</a></li>
+        <li>
+        <a href="subscribe.html">Contact / Subscribe</a></li>
+      </ul>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='filter-overlay' style='display: none'></div>
+      <hr class='hide' />
+      <div id='footer'>
+	   <div id='language'>
+										<p><img src="images/ui/languages.jpg" alt="" width="204" height="34" usemap="#Map" />
+					<map name="Map" id="Map">
+					  <area shape="rect" coords="174,0,203,34" href="http://fr.peoplejar.com " alt="French " />
+					  <area shape="rect" coords="144,-1,173,33" href="http://pt.peoplejar.com " alt="Portuguese" />
+					  <area shape="rect" coords="86,0,115,34" href="http://de.peoplejar.com " alt="German" />
+					  <area shape="rect" coords="59,-1,88,33" href="http://it.peoplejar.com " alt="Italian " />
+					  <area shape="rect" coords="115,0,144,34" href="http://jp.peoplejar.com " alt="Japanese " />
+					  <area shape="rect" coords="31,1,60,35" href="http://ru.peoplejar.com " alt="Russian " /><area shape="rect" coords="2,2,31,36" href="index.html" alt="English" /></map>
+			              </p>
+              </div>
+        <div class='wrap'>
+          <p>&copy;2009 PeopleJar, Inc. All Rights Reserved.</p>
+          <ul>
+            <li><a href="video.html">About PeopleJar</a></li>
+            <!-- %li= link_to t(:'peoplejar.blog'), "http://blog.peoplejar.com/" -->
+            <li><a href="http://getsatisfaction.com/peoplejar" id="feedback-link">Feedback</a></li>
+            <li><a href="terms_of_use.html">Terms of Use</a></li>
+            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+            <li>
+                  <form action="#">
+                  <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                      <option value="">Select a language...</option>
+              <option value='http://de.peoplejar.com'>German</option><option value='http://peoplejar.com'>English</option><option value='http://es.peoplejar.com'>Spanish</option><option value='http://fr.peoplejar.com'>French</option><option value='http://it.peoplejar.com'>Italian</option><option value='http://jp.peoplejar.com'>Japanese</option><option value='http://kr.peoplejar.com'>Korean</option><option value='http://nl.peoplejar.com'>Dutch</option><option value='http://pt.peoplejar.com'>Portuguese</option><option value='http://ru.peoplejar.com'>Russian</option><option value='http://cn.peoplejar.com'>Chinese Simplified</option><option value='http://tw.peoplejar.com'>Chinese Traditional</option></select></form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    //<![CDATA[
+                 $(document).ready( function() {
+                    FB_RequireFeatures(["XFBML"], function() {
+                      FB.Facebook.init('6578059fef6f59b48a02aa7ebfd24fa7','/xd_receiver.html', {});
+                      
+                    });
+                  });
+    
+    //]]>
+    </script>
+  </body>
+</html>

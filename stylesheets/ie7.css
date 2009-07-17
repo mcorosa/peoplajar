@@ -1,0 +1,20 @@
+/* Search Results Interest List */
+#body.find.results #content-3 #people .group .interests a{display: inline-block;}
+
+
+
+/* Search Results Interest List */
+#body.find.results #content-2 #filters form.group p span.dropdown{top: 23px;}
+#body.find.results #content-2 #filters form.group ul li.remove a{float: none;}
+
+
+/* Profile */
+#body.profile #content-1 #message{margin-top: 2em;}
+
+#body #forms .group p span.dropdown{top: 23px;}
+
+/* My Profile */
+#body.myprofile #content-2 #attribute-list .group p span.dropdown{top: 23px;}
+#body.myprofile #content-2 #attribute-list .group ul li.remove a{float: none;}
+#body.myprofile #content-2 #attribute-list form p.suggest-attribute{padding: 5px 15px 15px 15px;}
+#body.myprofile #content-2 #attribute-list form p span.checkbox label{padding-top: 4px;}

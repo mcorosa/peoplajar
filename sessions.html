@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<title>People Jar</title>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="wrap">
+	<div id="content">
+      <div id="header">
+        <div class="wrap">
+          <div id="brand">
+          	<h1>
+            <a href="index.html">PeopleJar</a>
+            </h1>
+          </div>
+          <div id='account'>
+          <ul>
+          	<li><a href="login.html" id="header-login-link">Login</a></li>
+          	<li class='facebook'>
+            	<a href="#" onclick="FB.Connect.requireSession( function()%7Bwindow.location = _\facebook\login_;%7D );; return false;.html">Login With Facebook</a>
+          	</li>
+          	<li class='twitter'>
+            	<a href="/twitter/connect" onclick="metrics.log(%7B_category_ _ _header_, _action_ _ _twitter-connect-click_%7D);">Login With Twitter</a>
+          	</li>
+          	<li><a href="signup\new.html" onclick="metrics.log(%7B_category_ _ _header_, _action_ _ _signup-click_%7D);">Sign Up</a></li>
+           </ul>
+      </div>
+                  
+          <div id="nav-primary">
+            <ul>
+              <li id="nav-find" class="selected"><a href="find.html">Find</a></li>
+              <li><a href="video.html">What is PeopleJar?</a></li>  
+            </ul>
+          </div>
+        </div><!-- .wrap -->
+      </div>      
+        
+        <div id="search">
+            <form id="search_form" method="post" action="/">
+                <input type="text" id="s" value="Looking For:" class="swap_value" />
+                <button type='submit' class="button">Find</button>
+            </form>
+        </div>
+        
+        <div id="menu">
+        	<div class="accordionMenu colapse first">
+            	<p>Drummer</p>                
+            </div>
+            <div id="boxyears">
+            <p>Years of Experience</p>
+            <input type="text" class="inputspacer" /> To <input type="text" /> 
+            </div>
+			<img src="images/temp/title-interest.jpg" class="img_subitens" />
+            <ul>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Jam Session</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Meeting Other Drummers</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Place to Partice</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Talking Lessions</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Teaching Students</span> (201)</li>
+				<li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Band</span> (201)</li>                
+			    <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Gig</span> (201)</li>
+			    <li><span class="spanbluemenu">Choose More...</span></li>                                
+            </ul>
+			<img src="images/temp/title-experience.jpg"  class="img_subitens" />
+            <ul>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Beginner</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Intermediate</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Advanced</span> (201)</li>
+            </ul>
+           	<img src="images/temp/title-genre.jpg"  class="img_subitens" />
+            <ul>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Alternative</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Big Band</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Blues</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Classic Rock</span> (201)</li>
+                <li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Classical</span> (201)</li>
+				<li><input type="checkbox" align="bottom" /><span class="spanbluemenu">Country</span>(201)</li>                
+			    <li><span class="spanbluemenu">Choose More...</span></li>                                
+            </ul>
+            
+           	<div class="accordionMenu expand">
+            	<p>Artist</p>                
+            </div>
+           	<div class="accordionMenu expand">
+            	<p>Model</p>                
+            </div>
+           	<div class="accordionMenu expand">
+            	<p>Artist</p>                
+            </div>
+           	<div class="accordionMenu expand">
+            	<p>Model</p>                
+            </div>
+        </div>
+        
+        <div id="searchresult">
+        	Results for <span class="spanred">Drummer, Model, Photographer</span> 401 Results (0.32 seconds)<br clear="all" />
+            <div id="savesearch">
+				<ul>
+                	<li class="colorli">
+                     Save your search and get notified of future matches.
+                    </li>
+                    <li class="savesearch">
+                    	<p>
+                            <a href="#">
+                                <strong>Save this Search</strong>
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="results">
+			<div class="boxresult">
+              <div class="box">
+            	<div class="backphot"><img src="images/temp/photoex.jpg" /></div>
+                <div class="datepersonal">
+                	<span class="title">I am Not a Machine</span><br />
+                	<p><span class="andress">Santee, CA 92071, USA</span><br />
+                		Interests:<span class="interests"><a href="#">Web Designer</a>, <a href="#">Web Designer</a>, <a href="#">Web Designer</a></span>
+                	</p>
+                </div>
+                </div>
+			<br clear="all" />
+              <div class="box">
+            	<div class="backphot"><img src="images/temp/photoex.jpg" /></div>
+                <div class="datepersonal">
+                <span class="title">I am Not a Machine</span><br />
+                <p><span class="andress">Santee, CA 92071, USA</span><br />
+                Interests: <span class="interests"><a href="#">Web Designer</a>, <a href="#">Web Designer</a>, <a href="#">Web Designer</a></span>
+                </p>
+                </div>
+                </div>
+			<br clear="all" />
+              <div class="box">
+            	<div class="backphot"><img src="images/temp/photoex.jpg" /></div>
+                <div class="datepersonal">
+               <span class="title">I am Not a Machine</span><br />
+                <p><span class="andress">Santee, CA 92071, USA</span><br />
+                Interests:  <span class="interests"><a href="#">Web Designer</a>, <a href="#">Web Designer</a>, <a href="#">Web Designer</a></span>
+                </p>
+                </div>
+                </div>
+			<br clear="all" />
+              <div class="box">
+            	<div class="backphot"><img src="images/temp/photoex.jpg" /></div>
+                <div class="datepersonal">
+                <span class="title">I am Not a Machine</span><br />
+                <p><span class="andress">Santee, CA 92071, USA</span><br />
+                Interests: <span class="interests"><a href="#">Web Designer</a>, <a href="#">Web Designer</a>, <a href="#">Web Designer</a></span>
+                </p>
+                </div>
+                </div>
+			<br clear="all" />
+              <div class="box">
+            	<div class="backphot"><img src="images/temp/photoex.jpg" /></div>
+                <div class="datepersonal">
+                <span class="title">I am Not a Machine</span><br />
+                <p><span class="andress">Santee, CA 92071, USA</span><br />
+                Interests: <span class="interests"><a href="#">Web Designer</a>, <a href="#">Web Designer</a>, <a href="#">Web Designer</a></span>
+                </p>
+                </div>
+                </div>
+			<br clear="all" />
+              <div class="box">
+            	<div class="backphot"><img src="images/temp/photoex.jpg" /></div>
+                <div class="datepersonal">
+               <span class="title">I am Not a Machine</span><br />
+                <p><span class="andress">Santee, CA 92071, USA</span><br />
+                Interests: <span class="interests"><a href="#">Web Designer</a>, <a href="#">Web Designer</a>, <a href="#">Web Designer</a></span>
+                </p>
+                </div>
+                </div>
+			<br clear="all" />
+              <div class="box">
+            	<div class="backphot"><img src="images/temp/photoex.jpg" /></div>
+                <div class="datepersonal">
+                <span class="title">I am Not a Machine</span><br />
+                <p><span class="andress">Santee, CA 92071, USA</span><br />
+                Interests: <span class="interests"><a href="#">Web Designer</a>, <a href="#">Web Designer</a>, <a href="#">Web Designer</a></span>
+                </p>
+                </div>
+                </div>
+			<br clear="all" />
+            </div>
+
+        </div>
+        
+        <div id="adsbanner">
+        <img src="images/temp/ads_01.jpg" />
+        <br /><br />
+        <img src="images/temp/ads_02.jpg" />
+        </div>
+
+		<div id="footer">
+        	<img src="images/temp/flags.jpg" /><br clear="all" />
+        	<p>©2009 PeopleJar, Inc. All Rights Reserved. | About PeopleJar | Feedback | Terms of Use | Privacy Policy  <select><option>Select a Language</option></select></p>
+      </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+</script>
+</body>
+</html>

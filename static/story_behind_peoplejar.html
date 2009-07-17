@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en' xmlns:fb='http://www.facebook.com/2008/fbml'>
+  <head>
+    <title>The PeopleJar Story</title>
+    <link rel="apple-touch-icon" href="../images/favicon_iphone.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="PRAGMA" content="NO-CACHE" />
+    <meta name="verify-v1" content="J3G7XwUzITAc6CaLVmO/YhzzxWFPYMu6jOSpjWbMuoc=" />
+    <link href="../stylesheets/internal_stylesheet.css" media="screen" rel="stylesheet" type="text/css" /><!--[if lte IE 7]><link href="../stylesheets/ie7.css" media="screen" rel="stylesheet" type="text/css" /><![endif]--><!--[if IE 6]><link href="../stylesheets/ie6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <script src="../javascripts/_javascript.js_1246692264" type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript" defer="defer">
+      var pageTracker = _gat._getTracker("UA-4727207-1");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+    
+    
+      <script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(function() {$(':text:visible:enabled:first').focus(); });
+    //]]>
+    </script>
+    
+    
+    <!--[if IE 6]>
+    <script src="../javascripts/DD_belatedPNG.js"></script>
+    <![endif]--> 
+    <script type="text/javascript">
+    //<![CDATA[
+        function save_person_not_logged_in_box(){
+          $.ajax({
+            beforeSend:    function(request){
+          if ($('#loading-box').size() > 0){ $('#loading-box').show(); }
+          else{$('    <div id=/"loading-box/"><div id=/"eventbox/"><div class=/"wrap-outer/">    <div class=/"wrap-inner/">    <div id=/"eventbox-body/"><p class=/"loading/">Loading...<//p><//div>    <//div>    <//div><//div><//div>').appendTo($('#container')); }
+        }
+    ,
+            error:function(request){},
+            success:function(data){
+              if (data) {
+                $('#loading-box').hide();
+                if ($('#save-person-not-logged-in-box').size() > 0){ $('#save-person-not-logged-in-box').html(data).show(); }
+                else{$('<div><//div>').html(data).appendTo($('#container'))  }
+              } 
+            },
+            type:'get',
+            url:'/saved_people/not_logged_in_box'
+          });
+          return false;
+        }
+        function save_search_not_logged_in_box(){
+          $.ajax({
+            beforeSend:function(request){},
+            error:function(request){},
+            success:function(data){
+              if (data) {
+                if ($('#save-search-not-logged-in-box').size() > 0){ $('#save-search-not-logged-in-box').html(data).show(); }
+                else{$('<div><//div>').html(data).appendTo($('#container'))  }
+              } 
+            },
+            type:'get',
+            url:'/saved_searches/not_logged_in_box'
+          });
+          return false;
+        }
+        $(document).ready(function() {
+          var badBrowser = (/MSIE ((5.5)|6)/i.test(navigator.userAgent));
+          if (badBrowser){
+            DD_belatedPNG.fix('#brand h1 a');
+          }
+        });
+    
+    //]]>
+    </script>
+    <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+        <!--[if IE 6]>
+        <div id="ie6">
+          <div class="wrap">
+            <h1>This Browser is Not Supported</h1>
+            <p>Peoplejar.com uses web technologies that your current browser is unable to render properly.<br/> 
+            For a better web experience, we recommend using <a href="http://firefox.com">Firefox</a>, 
+            <a href="http://apple.com/safari">Safari</a>, <a href="http://www.google.com/chrome">Google Chrome</a>, 
+            or upgrading to the current version of <a href="http://www.microsoft.com/ie">Internet Explorer</a>.</p>
+          </div>
+        </div>
+        <![endif]-->
+    <div id='container'>
+      <div id="header">
+        <div class="wrap">
+          <div id="brand">
+            <h1>
+            <a href="../index.html">PeopleJar</a>
+           
+            </h1>
+            <p>Be Found.</p>
+          </div>
+          <div id='account'>
+        <ul>
+          <li><a href="../login.html" id="header-login-link">Login</a></li>
+          <li class='facebook'>
+            <a href="#" onclick="FB.Connect.requireSession( function()%7Bwindow.location = _/facebook/login_;%7D );; return false;.html">Login With Facebook</a>
+          </li>
+          <li class='twitter'>
+            <a href="/twitter/connect" onclick="metrics.log(%7B_category_ _ _header_, _action_ _ _twitter-connect-click_%7D);">Login With Twitter</a>
+          </li>
+          <li><a href="../signup/new.html" onclick="metrics.log(%7B_category_ _ _header_, _action_ _ _signup-click_%7D);">Sign Up</a></li>
+        </ul>
+      </div>
+      
+          <div id="nav-primary">
+            <ul>
+              <li id="nav-find" class=""><a href="../find.html">Find</a></li>
+              
+              <li  class="white selected"><a href="../video.html">What is PeopleJar?</a></li>
+              
+            </ul>
+          </div>
+        </div><!-- .wrap -->
+      </div>
+      <div class='loginbox' id='eventbox' style='display: none;'>
+        <div class='wrap-outer'>
+          <div class='wrap-inner'>
+            <div id='eventbox-head'>
+              <h2>Login to PeopleJar</h2>
+              <p><a href="../index.html" id="login-modal-close">Close</a></p>
+            </div>
+            <form action="../sessions.html" method="post">
+              <div id='eventbox-body'>
+                <p>
+                  Don't have a PeopleJar account?
+                  <a href="../signup/new.html">Sign Up</a>
+                </p>
+                <fieldset>
+                  <p>
+                    <label for="session_email">Email:</label>
+                    <input class="text" id="session_email" name="session[email]" size="30" type="text" />
+                  </p>
+                  <p>
+                    <label for="session_password">Password:</label>
+                    <input class="text" id="session_password" name="session[password]" size="30" type="password" />
+                  </p>
+                  <ul>
+                    <li>
+                      <input id="session_remember_me" name="session[remember_me]" type="checkbox" value="1" />
+                      <label for="session_remember_me">Remember Me</label>
+                    </li>
+                  </ul>
+                </fieldset>
+              </div>
+              <div id='eventbox-foot'>
+                <p class='buttons'>
+                  <button type='submit'>
+                    <span>Login</span>
+                  </button>
+                  <a href="../forgot_password.html" class="forgot">Forgot your password?</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+      //<![CDATA[
+      $(document).ready(function() {    $('#header-login-link').click(function(){
+            metrics.log({'category' : 'header', 'action' : 'login-click'});
+            $('.loginbox').show(); $('#session_email').focus(); return false;
+          });
+          
+          $('#login-modal-close').click(function(){$('.loginbox').hide(); return false;})
+          
+      });
+      //]]>
+      </script>
+      <hr class='hide' />
+      
+      <!-- <div id="grid"></div> -->
+      <div id="body" class="pages">
+        <div id="content-1">
+          <div class="wrap">
+            <h2>The PeopleJar Story</h2>
+            <div class="main">
+              <h4>"I'm all about globalization. I'm all about breaking borders. … I truly believe we are all citizens of one planet. I just want to give people a tool to connect."</h4>
+      
+              <p>Alexander A. Alexandrov, Founder of PeopleJar.com</p>
+      
+              <h2>The story behind PeopleJar.com</h2>
+      
+              <p>As a teenager, Founder Alexander A. Alexandrov, now 26, learned, from his own experiences, what the internet was missing: a targeted, yet dynamic way for people to connect online. He also understood the power of people-to-people connections. What Alex didn't know back then was that he would go on to create a global platform that would finally position the internet to fill that void.</p>
+      
+              <p>It's an interesting story; one that began in Russia and through a few improbable people connections, all stemming from Alex's foray online, led him to the United States.</p>
+      
+              <p>At 16, he was a novice drummer who was sufficiently intrigued by internet that he used it - and his very limited knowledge of English - to learn whatever he could about his idol, American jazz drummer, Jim Chapin. Serendipitously, Alex wound up meeting a couple of Chapin's associates online and with a Russian-English dictionary by his side, had regular email exchanges with his new American acquaintances. The experience was thrilling. And by then Alex was already so inspired by books he'd read about Chapin that he was determined to attend college in the United States. Not surprisingly, the correspondence with his new friends only fueled that desire. Besides, Alex wanted out of his native Voronezh, an industrial city in southwestern Russia where life was difficult and creature comforts were few and far between.</p>
+      
+              <p>Along with his parents, younger sister and maternal grandparents, Alex lived in a three-bedroom, one bathroom government apartment. Their living quarters were cramped, but Alex and his family were no better or worse off than their neighbors. That was, after all, the Russian way. Luckily for Alex, the setup afforded him daily access to his doting grandfather, a university lawyer who lavished him with lots of attention and time, spent taking bike rides or walks and regular indulgences of ice cream while his parents – his father, a civil pilot; his mother an accountant for a state-run bank – worked long hours.</p>
+      
+              <p>Although life inside the confines of his family's small apartment was good, Alex found circumstances outside depressing. He saw his hometown as a place where people were born, died and lived unremarkable lives in between simply because they lacked opportunities. His neighborhood, in particular, emanated hopelessness. A concentration of virtually identical apartment buildings: nine to 16-floor, drab structures that housed families from a range of social and professional backgrounds, it was, as Alex has described it, "a terrible environment."</p>
+      
+              <p>A self-described introvert and something of a bookworm Alex's surroundings left him with few like-minded kids with which to play. Many of his neighborhood counterparts were street toughs who preferred mischief over their studies. Ultimately, some of them ended up in prison for crimes, including murder; sadly, others committed suicide.</p>
+      
+              <p>Neither would be Alex's fate. An exceptional student, he found refuge in school, the friendships he forged there and eventually the internet. Once he set his sights on the United States he planned to use the internet to find a Russian student already living here who would be willing to help him do the same. After all, his simple modem and dial up connection had already led him to Chapin's associates half-a-world away. Unfortunately, though, Alex wasn't as lucky the second time around. His targeted searches, based on three specific characteristics, came up empty over and over again; not because the student he was looking for didn't exist. But because an internet tool that could help him locate that student didn't. That was the first time Alex, by then a student at Voronezh State Technical University, realized the internet's limitations.</p>
+      
+              <p>He made it to the United States just fine thanks to intensive English language study that helped him ace an English proficiency test and earn a scholarship to Mississippi's historically black Alcorn State University (for his junior and senior years). And during his first spring break in the States, Alex visited one of his internet drumming connections in Raleigh, N.C. That friend introduced him to a local mother of three whose son was taking drumming lessons. Alex's friend knew the woman and her husband were thinking of adopting children from Russia and that Alex was looking for a summer internship. Alex, he thought, would make a perfect translator.</p>
+      
+              <p>Alex and the woman hit it off during that initial meeting and over the next few months they kept in touch by email. Even though she and her husband eventually changed their minds about adopting, she invited Alex to move in with her family in the summer of 2002 and he went to work for her husband's portable storage company. It was a great learning experience for Alex, who returned to Alcorn State that fall for his senior year.</p>
+      
+              <p>Two days after his May 2003 graduation, he was back on the job. His first assignment - making cold calls - didn't work out so well. But within a few months, Alex was in charge of company inventory. The job was better suited to his abilities and afforded him a detailed understanding of the company's strengths and shortcomings. So he put his technology background to work (at Alcorn State Alex worked as a web developer for the School of Business) and developed operations and logistics processing that streamlined functioning and ultimately enabled the company to expand.</p>
+      
+              <p>That accomplishment notwithstanding, Alex wasn't satisfied. Working for a portable storage company wasn't exactly what he'd envisioned when he dreamed of coming to the United States. By late 2006 he was ready to move on. Besides by then, Alex, a drummer and novice skydiver, realized his teenage observation about the internet's void was still an issue: a targeted online search and connection tool that could help him connect with other skydivers or drummers (and eventually runners), for free, didn't exist. So, he set out to create a tool that would not only serve people who share his interests, but others' interests as well. His concept was of a universal people search tool that would unite people with similar recreational, social and professional interests across borders. The result is PeopleJar.com.</p>
+      
+              <h4>"The internet is really a great connectivity tool. You can see if from my own life example and how far it allowed me to come. If the modem and the dial up connection were never there, I wouldn't be here today. … It's truly extraordinary. It's proof that it's a small world."</h4>
+      
+              <p>Alexander A. Alexandrov</p>
+              
+            </div>
+            <div class="sub">
+              <ul class="nav">
+        <li>
+        <a href="../video.html">PeopleJar Video</a></li>
+        <li>
+        <a href="../about.html">About PeopleJar</a></li>
+        <li>
+        <a href="../faq.html">FAQ</a></li>
+        <li class='selected'>
+        <a href="story_behind_peoplejar.html">The PeopleJar Story</a></li>
+        <li>
+        <a href="../subscribe.html">Contact / Subscribe</a></li>
+      </ul>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='filter-overlay' style='display: none'></div>
+      <hr class='hide' />
+      <div id='footer'>
+	   <div id='language'>
+										<p><img src="../images/ui/languages.jpg" alt="" width="204" height="34" usemap="#Map" />
+					<map name="Map" id="Map">
+					  <area shape="rect" coords="174,0,203,34" href="http://fr.peoplejar.com " alt="French " />
+					  <area shape="rect" coords="144,-1,173,33" href="http://pt.peoplejar.com " alt="Portuguese" />
+					  <area shape="rect" coords="86,0,115,34" href="http://de.peoplejar.com " alt="German" />
+					  <area shape="rect" coords="59,-1,88,33" href="http://it.peoplejar.com " alt="Italian " />
+					  <area shape="rect" coords="115,0,144,34" href="http://jp.peoplejar.com " alt="Japanese " />
+					  <area shape="rect" coords="31,1,60,35" href="http://ru.peoplejar.com " alt="Russian " /><area shape="rect" coords="2,2,31,36" href="index.html" alt="English" /></map>
+			              </p>
+              </div>
+        <div class='wrap'>
+          <p>&copy;2009 PeopleJar, Inc. All Rights Reserved.</p>
+          <ul>
+            <li><a href="../video.html">About PeopleJar</a></li>
+            <!-- %li= link_to t(:'peoplejar.blog'), "http://blog.peoplejar.com/" -->
+            <li><a href="http://getsatisfaction.com/peoplejar" id="feedback-link">Feedback</a></li>
+            <li><a href="../terms_of_use.html">Terms of Use</a></li>
+            <li><a href="../privacy_policy.html">Privacy Policy</a></li>
+            <li>
+                  <form action="#">
+                  <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                      <option value="">Select a language...</option>
+              <option value='http://de.peoplejar.com'>German</option><option value='http://peoplejar.com'>English</option><option value='http://es.peoplejar.com'>Spanish</option><option value='http://fr.peoplejar.com'>French</option><option value='http://it.peoplejar.com'>Italian</option><option value='http://jp.peoplejar.com'>Japanese</option><option value='http://kr.peoplejar.com'>Korean</option><option value='http://nl.peoplejar.com'>Dutch</option><option value='http://pt.peoplejar.com'>Portuguese</option><option value='http://ru.peoplejar.com'>Russian</option><option value='http://cn.peoplejar.com'>Chinese Simplified</option><option value='http://tw.peoplejar.com'>Chinese Traditional</option></select></form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    //<![CDATA[
+                 $(document).ready( function() {
+                    FB_RequireFeatures(["XFBML"], function() {
+                      FB.Facebook.init('6578059fef6f59b48a02aa7ebfd24fa7','/xd_receiver.html', {});
+                      
+                    });
+                  });
+    
+    //]]>
+    </script>
+  </body>
+</html>
